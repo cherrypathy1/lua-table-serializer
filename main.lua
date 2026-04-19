@@ -93,4 +93,4 @@ local function serialize(value, indent)
     end
 end
 
-return serialize(tbl)
+return serialize()
