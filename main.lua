@@ -1,5 +1,5 @@
 local function serialize(value, indent)
-    indent = indent or 0
+    indent = tonumber(indent) or 0
     local t = typeof(value)
 
     if t == "string" then
